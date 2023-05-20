@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "9d10a432640655d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d7056518b5aa28b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d47eecc1e80c5b93",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8fd854497c4688a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98156ccbb91b69c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2f9c0400f270ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebcd52b23733f9e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db77086a7e300aa4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a99e620d3951b16",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff7c20adb0f83f02",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204.5
+  },
+  "right": {
+    "id": "964366b94d5af2ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "c352da7221d864a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f67aa39a9ca2462",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Comandos git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a135b9e9d96a17a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Comandos git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "22db59948781500f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "82fc869781462d3e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Comandos git.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir quick switcher": false,
+      "graph:Abrir vista de gráfico": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "8fd854497c4688a0",
+  "lastOpenFiles": [
+    "Roles.md",
+    "Excalidraw/Aprendizaje por Currículo.excalidraw.md",
+    "Excalidraw/Brightcell/Brightcell-VMI-InventarioWorkflow.excalidraw.md",
+    "Excalidraw/Brightcell",
+    "Excalidraw/Brightcell/Brightcell-VMI-Ventas-En-Linea.excalidraw.md",
+    "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md",
+    "Brightcell/Lambdas/CheckfileLambda.md",
+    "Brightcell/VMI-Telcel/Permisos necesarios.md",
+    "Brightcell/Proyecto migración de Azure a AWS.md",
+    "Excalidraw/Brightcell-VMI-Ventas-En-Linea.excalidraw.png",
+    "Excalidraw/Untitled.md",
+    "Comandos git.md",
+    "Pasted image 20230511123204.png",
+    "Brightcell/Preguntas para reuniones.md",
+    "Brightcell/VMI-Telcel/Inventario.md",
+    "Images/01Ventas.png",
+    "Images/Pasted image 20230425111030.png",
+    "Brightcell/Documentacion/01_Ventas.md",
+    "Brightcell/Documentacion/02_Inventario.md",
+    "Brightcell/Pipelines/FactInventorySalesMainPipeline.md",
+    "Brightcell/Pipelines/FactCustomer.md",
+    "Brightcell/Pipelines/DailyMainPipeline.md",
+    "Excalidraw/Brightcell-VMI-InventarioWorkflow.excalidraw.png",
+    "Brightcell/Preguntas para reuniones",
+    "Excalidraw/Brightcell-VMI-InventarioWorkflow.excalidraw.svg",
+    "Excalidraw/VMI-Telcel-ReporteHistorico.excalidraw.md",
+    "Brightcell/USER STORY 129247.md",
+    "Excalidraw/VMI-Telcel-InventarioWorkflow.excalidraw.svg",
+    "Excalidraw",
+    "Brightcell/VMI-Telcel",
+    "Images/Pasted image 20230503111815.png",
+    "Images/Pasted image 20230503114443.png",
+    "Pasted image 20230503111332.png",
+    "Brightcell/Documentacion",
+    "Brightcell/Lambdas",
+    "Images",
+    "Brightcell/Desarrollo/PrototypeLoadMultipleFiles.md",
+    "Brightcell/Desarrollo/Proceso Reabasto Diario.md",
+    "Brightcell/Desarrollo",
+    "Brightcell/Pipelines",
+    "Inti/Tareas.md",
+    "Brightcell",
+    "AWS SAM/Tareas.md",
+    "AWS SAM/AWS SAM.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
