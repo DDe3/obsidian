@@ -88,5 +88,11 @@ EXEC preprocessing.TruncateTable 'preprocessing.statingDailyInventory'
 ~~~
 
 
-~~~
+~~~ json
+
+{
+"bucket_name": "bucket",
+"file_key" : "key",
+}
+
 ~~~
