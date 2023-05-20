@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8d7056518b5aa28b",
+        "id": "241a6ac6ffcdf439",
         "type": "tabs",
         "children": [
           {
-            "id": "d47eecc1e80c5b93",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8fd854497c4688a0",
+            "id": "0478dd94f6f17788",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos git.md",
+                "file": "Roles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comandos git.md",
+                "file": "Roles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comandos git.md",
+                "file": "Roles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comandos git.md"
+                "file": "Roles.md"
               }
             }
           }
@@ -161,14 +152,16 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8fd854497c4688a0",
+  "active": "0478dd94f6f17788",
   "lastOpenFiles": [
-    "Roles.md",
     "Excalidraw/Aprendizaje por Currículo.excalidraw.md",
+    "Pasted image 20230511123204.png",
+    "Comandos git.md",
+    "Roles.md",
     "Excalidraw/Brightcell/Brightcell-VMI-InventarioWorkflow.excalidraw.md",
     "Excalidraw/Brightcell",
     "Excalidraw/Brightcell/Brightcell-VMI-Ventas-En-Linea.excalidraw.md",
@@ -178,8 +171,6 @@
     "Brightcell/Proyecto migración de Azure a AWS.md",
     "Excalidraw/Brightcell-VMI-Ventas-En-Linea.excalidraw.png",
     "Excalidraw/Untitled.md",
-    "Comandos git.md",
-    "Pasted image 20230511123204.png",
     "Brightcell/Preguntas para reuniones.md",
     "Brightcell/VMI-Telcel/Inventario.md",
     "Images/01Ventas.png",
