@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "241a6ac6ffcdf439",
+        "id": "23ce7f36bc167df3",
         "type": "tabs",
         "children": [
           {
-            "id": "0478dd94f6f17788",
+            "id": "6e2ec34dd417006e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Brightcell/Brightcell-VMI-Ventas-En-Linea.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "ef937e465c8bc1e7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md"
+                "file": "Visual Studio Code.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md",
+                "file": "Visual Studio Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md",
+                "file": "Visual Studio Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md"
+                "file": "Visual Studio Code.md"
               }
             }
           }
@@ -165,20 +156,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ef937e465c8bc1e7",
+  "active": "6e2ec34dd417006e",
   "lastOpenFiles": [
+    "Brightcell/Proyecto migración de Azure a AWS.md",
+    "Roles.md",
+    "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md",
     "Excalidraw/Brightcell/Brightcell-VMI-Ventas-En-Linea.excalidraw.md",
     "Visual Studio Code.md",
-    "Roles.md",
     "Excalidraw/Aprendizaje por Currículo.excalidraw.md",
     "Pasted image 20230511123204.png",
     "Comandos git.md",
     "Excalidraw/Brightcell/Brightcell-VMI-InventarioWorkflow.excalidraw.md",
     "Excalidraw/Brightcell",
-    "Excalidraw/Brightcell/Brightcell-VMI-Ventas.excalidraw.md",
     "Brightcell/Lambdas/CheckfileLambda.md",
     "Brightcell/VMI-Telcel/Permisos necesarios.md",
-    "Brightcell/Proyecto migración de Azure a AWS.md",
     "Excalidraw/Brightcell-VMI-Ventas-En-Linea.excalidraw.png",
     "Excalidraw/Untitled.md",
     "Brightcell/Preguntas para reuniones.md",

@@ -96,3 +96,51 @@ EXEC preprocessing.TruncateTable 'preprocessing.statingDailyInventory'
 }
 
 ~~~
+
+
+
+dw.FactInventory
+cat.Materiales
+dbo.R9
+dw.FactSaleswoChannel
+
+
+R9_MaxInventoryTop2Agrupado no depende de nadie
+stating_R9_LineUp no depende de nadie
+
+- [x] Fecha
+- [x] AlamcenQueSurte
+- [x] Almacen
+- [x] DescripcionAlmacen
+- [x] NombreComercialColor
+- [x] TipoPVI
+- [x] Concatenado
+- [ ] SalesUnits <- `Sales - Units`
+- [ ] SalesPesos <- `Sales - Pesos`
+- [ ] InventoryUnits <- `inventory - units`
+- [ ] InventoryTransito <- `inventory - transito`
+- [ ] InventoryLibreUtilizacion <- `inventory - Libre Utilizacion`
+- [ ] InventoryValor <-  `INVENTORY - Valor`
+- [ ] W <- D
+- [x] CodigoPrepago
+- [x] InvetarioCodigoPrepago
+- [x] CodigoPrepago2
+- [x] InvetarioCodigoPrepago2
+- [x] CodigoPospago
+- [ ] InventarioCodigoPospago <- InvetarioCodigoPospago
+- [x] CodigoPospago2
+- [ ] InventarioCodigoPospago2 <- InvetarioCodigoPospago2
+- [x] StockBloqueado
+
+
+|-- InvetarioCodigoPrepago: decimal(12,2) (nullable = false)  -> numeric
+|-- InvetarioCodigoPrepago2: decimal(12,2) (nullable = false)  -> numeric
+|-- InvetarioCodigoPospago: decimal(12,2) (nullable = false)  -> numeric
+|-- InvetarioCodigoPospago2: decimal(12,2) (nullable = false)  -> numeric
+|-- Sales - units: long (nullable = true)  -> numeric
+|-- Sales - Pesos: decimal(29,4) (nullable = true)   -> numeric
+|-- inventory - units: long (nullable = true)  -> numeric
+|-- inventory - transito: long (nullable = true)  -> numeric
+|-- inventory - Libre Utilizacion: long (nullable = true)  -> numeric
+|-- INVENTORY - Valor: decimal(29,4) (nullable = true)  -> numeric
+|-- StockBloqueado: long (nullable = true) -> numeric

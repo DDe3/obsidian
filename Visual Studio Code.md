@@ -1,4 +1,13 @@
 
+Para crear un nuevo proyecto lambda
+
+~~~ cmd
+dotnet new lambda.EmptyFunction --name {function_name}
+~~~
+
+
+
+
 Para testear lambdas en .NET
 
 ~~~ cmd
