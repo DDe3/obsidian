@@ -69,7 +69,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.1",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.2",
     "libraryItems": [
       {
         "status": "published",
@@ -6058,7 +6058,7 @@
             "containerId": null,
             "originalText": "Azure Database for MariaDB",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665683916118,
@@ -7498,7 +7498,7 @@
             "containerId": null,
             "originalText": "Azure Database for PostgreSQL",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "line",
@@ -8446,7 +8446,7 @@
             "containerId": null,
             "originalText": "Azure Data Explorer",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665682639787,
@@ -9037,7 +9037,7 @@
             "containerId": null,
             "originalText": "Azure Data Factory",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665679350144,
@@ -21055,7 +21055,7 @@
             "containerId": null,
             "originalText": "Azure CosmosDB",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665677951048,
@@ -25265,7 +25265,7 @@
             "containerId": null,
             "originalText": "Azure Cache for Redis",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665671914787,
@@ -28183,7 +28183,7 @@
             "containerId": null,
             "originalText": "Azure SQL Database",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "text",
@@ -31210,7 +31210,7 @@
             "containerId": null,
             "originalText": "$",
             "lineHeight": 1.2499999999999998,
-            "baseline": 51
+            "baseline": 52
           },
           {
             "type": "line",
@@ -35206,7 +35206,7 @@
             "containerId": null,
             "originalText": "SQL",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "text",
@@ -64473,7 +64473,7 @@
             "containerId": null,
             "originalText": "{}",
             "lineHeight": 1.1551624047327225,
-            "baseline": 12
+            "baseline": 13
           }
         ],
         "id": "yZP1lhB07aE5z8yNxepwz",
@@ -71610,7 +71610,7 @@
             "containerId": null,
             "originalText": "9",
             "lineHeight": 1.1875427075615734,
-            "baseline": 27
+            "baseline": 28
           }
         ],
         "id": "EdjPrLaWQkPVii-WHH4nk",
@@ -73383,7 +73383,7 @@
             "containerId": null,
             "originalText": "</>",
             "lineHeight": 1.1267157397678071,
-            "baseline": 14
+            "baseline": 15
           },
           {
             "type": "rectangle",
@@ -143354,7 +143354,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-  "previousRelease": "1.9.1",
+  "previousRelease": "1.9.2",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",

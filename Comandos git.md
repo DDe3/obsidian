@@ -5,7 +5,7 @@
 git init
 git add .
 git commit -m "msg"
-git remote add "giturl"
+git remote add "name" "giturl"
 git push -u master/main
 ~~~
 

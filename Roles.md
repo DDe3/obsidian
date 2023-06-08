@@ -99,48 +99,102 @@ EXEC preprocessing.TruncateTable 'preprocessing.statingDailyInventory'
 
 
 
-dw.FactInventory
-cat.Materiales
-dbo.R9
-dw.FactSaleswoChannel
+| Tiempo normal (min) | Tiempo paralelo (min) | Particiones | DPU |
+| ------------------- | --------------------- | ----------- | --- |
+| 2.55                | 1.41                  | 2           | 2   |
+|                     | 1.53                  | 4           | 2   |
+|                     | 1.35                  | 4            |4     |
+
+{
+ "bucket_name" : "brightcell-nonprod-vmi-telcel",
+ "file_folder" : "01_Ventas",
+ "file_name" : "expor_gsm120230330.zip"
+}
+
+- [x] MaterialID
+- [x] Material, 
+- [x] Descripcion, 
+- [x] Marca, 
+- [x] Modelo, 
+- [x] Categoria,
+- [x] Color, 
+- [x] Formfactor, 
+- [x] Sector, 
+- [x] SectorDescripcion, 
+- [x] CreatedDate, 
+- [x] UpdateDate, 
+- [ ] StartDate, 
+- [ ] EndDate, 
+- [x] GamaR9, 
+- [x] GamaDEUR, 
+- [x] LanzamientoDEUR, 
+- [x] CicloVidaR9, 
+- [x] CicloVidaDEUR, 
+- [x] GrupoArticulo, 
+- [x] DescripcionGrupo, 
+- [x] NoResurtible, 
+- [x] NombreComercial, 
+- [x] NombreComercialColor, 
+- [x] NoComercializable, 
+- [x] InsertDate
 
 
-R9_MaxInventoryTop2Agrupado no depende de nadie
-stating_R9_LineUp no depende de nadie
 
-- [x] Fecha
-- [x] AlamcenQueSurte
-- [x] Almacen
-- [x] DescripcionAlmacen
-- [x] NombreComercialColor
-- [x] TipoPVI
-- [x] Concatenado
-- [ ] SalesUnits <- `Sales - Units`
-- [ ] SalesPesos <- `Sales - Pesos`
-- [ ] InventoryUnits <- `inventory - units`
-- [ ] InventoryTransito <- `inventory - transito`
-- [ ] InventoryLibreUtilizacion <- `inventory - Libre Utilizacion`
-- [ ] InventoryValor <-  `INVENTORY - Valor`
-- [ ] W <- D
-- [x] CodigoPrepago
-- [x] InvetarioCodigoPrepago
-- [x] CodigoPrepago2
-- [x] InvetarioCodigoPrepago2
-- [x] CodigoPospago
-- [ ] InventarioCodigoPospago <- InvetarioCodigoPospago
-- [x] CodigoPospago2
-- [ ] InventarioCodigoPospago2 <- InvetarioCodigoPospago2
-- [x] StockBloqueado
+- [ ] Codigo de material | Material
+- [x] Descripcion,
+- [x] Nombre comercial,
+- [x] Nombre comercial color,
+- [x] Marca,
+- [x] Modelo,
+- [x] Color,
+- [ ] Nueva Categoria, | Categoria
+- [ ] No Comercializable, | NoComercializable
+- [x] Form factor,
+- [x] Sector,
+- [x] Descripcion sector,
+- [x] Tecnologia,
+- [x] Sistema operativo,
+- [x] Lanzamiento R9,
+- [x] Precio R9,
+- [x] Precio R9 IVA,
+- [x] Obsoleto financiero,
+- [x] Gama R9,
+- [x] Lanzamiento DEUR
+- [x] ,Precio DEUR,
+- [x] Precio DEUR IVA,
+- [x] Gama DEUR,
+- [x] Ciclo de vida DEUR,
+- [x] Ciclo de vida R9,
+- [x] Grupo de articulo,
+- [x] Descripcion de grupo,
+- [x] Numero de nucleos,
+- [x] Marca de chipset,
+- [x] Velocidad del procesador,
+- [x] Tipo pantalla,
+- [ ] TamaÃ¯Ã±o pantalla (pulgadas), |Tamaño pantalla (pulgadas)
+- [x] Camara frontal (MP),
+- [x] Camara trasera (MP),
+- [x] Flash camara frontal (Si/No),
+- [x] Flash camara trasera (Si/No),
+- [x] ROM (GB),
+- [x] RAM (GB),
+- [x] Capacidad bateria (mAh),
+- [x] VoLTE (Si/No),
+- [x] ViLTE (Si/No),
+- [x] VoWiFi (Si/No),
+- [x] Version de sistema operativo,
+- [ ] [Capacidad memoria interna (GB), | Capacidad memoria interna (GB)
+- [x] Ranura memoria externa (Si/No),
+- [x] Capacidad memoria externa (max),
+- [x] Weatherproof,
+- [x] GigaRed,
+- [x] Categoria LTE,
+- [x] Frecuencias 2g,
+- [x] Frecuencias 3g,
+- [x] Frecuencias 4g,
+- [x] Frecuencias 5g,
+- [x] Equipo sustituto sugerido por marca
+- [x] ,Seguridad de desbloqueo
+- [x] No Resurtible
 
-
-|-- InvetarioCodigoPrepago: decimal(12,2) (nullable = false)  -> numeric
-|-- InvetarioCodigoPrepago2: decimal(12,2) (nullable = false)  -> numeric
-|-- InvetarioCodigoPospago: decimal(12,2) (nullable = false)  -> numeric
-|-- InvetarioCodigoPospago2: decimal(12,2) (nullable = false)  -> numeric
-|-- Sales - units: long (nullable = true)  -> numeric
-|-- Sales - Pesos: decimal(29,4) (nullable = true)   -> numeric
-|-- inventory - units: long (nullable = true)  -> numeric
-|-- inventory - transito: long (nullable = true)  -> numeric
-|-- inventory - Libre Utilizacion: long (nullable = true)  -> numeric
-|-- INVENTORY - Valor: decimal(29,4) (nullable = true)  -> numeric
-|-- StockBloqueado: long (nullable = true) -> numeric
+,Codigo de material,Descripcion,Nombre comercial,Nombre comercial color,Marca,Modelo,Color,Nueva Categoria,No Comercializable,Form factor,Sector,Descripcion sector,Tecnologia,Sistema operativo,Lanzamiento R9,Precio R9,Precio R9 IVA,Obsoleto financiero,Gama R9,Lanzamiento DEUR,Precio DEUR,Precio DEUR IVA,Gama DEUR,Ciclo de vida DEUR,Ciclo de vida R9,Grupo de articulo,Descripcion de grupo,Numero de nucleos,Marca de chipset,Velocidad del procesador,Tipo pantalla,TamaÃ¯Ã±o pantalla (pulgadas),Camara frontal (MP),Camara trasera (MP),Flash camara frontal (Si/No),Flash camara trasera (Si/No),ROM (GB),RAM (GB),Capacidad bateria (mAh),VoLTE (Si/No),ViLTE (Si/No),VoWiFi (Si/No),Version de sistema operativo,[Capacidad memoria interna (GB),Ranura memoria externa (Si/No),Capacidad memoria externa (max),Weatherproof,GigaRed,Categoria LTE,Frecuencias 2g,Frecuencias 3g,Frecuencias 4g,Frecuencias 5g,Equipo sustituto sugerido por marca,Seguridad de desbloqueo,No Resurtible
